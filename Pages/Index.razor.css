@@ -1,152 +1,94 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .container {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
 }
 
-.pokemon-row{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 50px;
-    justify-content: center;
-    align-items: center;
+.pokemon-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
 }
 
-.pokemon-card{
-    width: 200px;
-    height: 250px;
-    padding: 10px;
-    background-color: #fff;
-    align-items: center;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 10px 10px 5px rgba(0, 0, 0, 0.15);
+.pokemon-card {
+  width: 200px;
+  height: 250px;
+  padding: 10px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px 5px rgba(0, 0, 0, 0.15);
 }
 
-img{
-    width: 80%;
-    height: 60%;
+img {
+  width: 80%;
+  height: 60%;
 }
 
-.type-row{
-    display: flex;
-    justify-content: space-around;
+.type-row {
+  display: flex;
+  justify-content: space-around;
 }
 
-.pokemon-name{
-    text-transform: capitalize;
-    text-decoration: none;
-    color: black;
+.pokemon-name, .type-badge {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black;
 }
 
-.type-badge{
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 8px;
-    font-size: 13px;
-    color: #fff;
-    text-transform: uppercase;
-    margin-right: 3px;
+.type-badge {
+  padding: 5px 10px;
+  font-size: 13px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-right: 3px;
+  border-radius: 8px;
 }
 
 .app-title {
-    width: 400px;
-    margin: 0 auto 20px auto;
+  width: 400px;
+  margin: 0 auto 20px auto;
 }
 
-/* Add styles for the filter section */
 .filter-section {
-    margin-bottom: 20px;
-  }
+  margin-bottom: 20px;
+}
 
-  label {
-    margin-right: 10px;
-  }
+label {
+  margin-right: 10px;
+}
 
-  input {
-    padding: 5px;
-    margin-right: 10px;
-  }
+.filter-input {
+  display: flex;
+  align-items: center;
+}
 
-  button {
-    padding: 5px 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
+input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
 
-  button:hover {
-    background-color: #0056b3;
-  }
+button, .filter-button, .show-more-button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
-    /* Add styles for the "Mostrar más" button */
-    .show-more-button {
-        margin-top: 20px;
-        padding: 10px;
-        background-color: #007bff;
-        color: #fff;
-        border: none;
-        cursor: pointer;
-        border-radius: 5px;
-      }
-    
-      .show-more-button:hover {
-        background-color: #0056b3;
-      }
+button:hover, .filter-button:hover, .show-more-button:hover {
+  background-color: #0056b3;
+}
 
-       /* Add styles for the filter section */
-  .filter-section {
-    margin-bottom: 20px;
-  }
-
-  label {
-    margin-right: 10px;
-  }
-
-  .filter-input {
-    display: flex;
-    align-items: center;
-  }
-
-  input {
-    padding: 8px;
-    margin-right: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
-  }
-
-  .filter-button {
-    padding: 8px 15px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-
-  .filter-button:hover {
-    background-color: #0056b3;
-  }
-
-  /* Add styles for the "Mostrar más" button */
-  .show-more-button {
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-
-  .show-more-button:hover {
-    background-color: #0056b3;
-  }
+.show-more-button {
+  margin-top: 20px;
+}

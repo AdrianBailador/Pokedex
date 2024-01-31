@@ -33,22 +33,22 @@
     }
   </div>
 
-  @if (displayedPokemonList.Count < pokemonList.Count)
-  {
+
       <button class="show-more-button" @onclick="ShowMore">Show More</button>
-  }
+ 
 </div>
 
 @code {
   List<Pokemon> pokemonList = new List<Pokemon>();
   List<Pokemon> displayedPokemonList = new List<Pokemon>();
   string filterIdOrName = "";
-  int batchSize = 10;
+  int batchSize = 12;
+  bool loading = true; // Añade esta línea
 
   protected override async Task OnInitializedAsync()
   {
       // Load only the first 12 Pokémon
-      for (int i = 1; i <= 10; i++) {
+      for (int i = 1; i <= 12; i++) {
           pokemonList.Add(await client.GetPokemon(i.ToString()));
       }
 
@@ -63,12 +63,13 @@
   private async Task LoadMorePokemonAsync()
   {
       // Start from the 13th Pokémon and end at the 152nd
-      for (int i = 11; i <= 1024; i++) {
+      for (int i = 13; i <= 1025; i++) {
           // Get the Pokémon from the client
           var pokemon = await client.GetPokemon(i.ToString());
           // Add it to the list
           pokemonList.Add(pokemon);
       }
+      loading = false; // Añade esta línea
   }
 
   // Filter by ID or Name
