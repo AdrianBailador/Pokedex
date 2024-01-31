@@ -1,7 +1,7 @@
 {
   "entryAssembly": "Pokedex",
   "resources": {
-    "hash": "sha256-NR9Tbe/OyeogbRx95CFHtQ4Ob8qmkS0iunhz8zCIkHw=",
+    "hash": "sha256-K1+5/lRuWeZOJcRlMlw3UM0eO07BBpHEQDgmjtFATY0=",
     "runtime": {
       "dotnet.7.0.14.7swktjs287.js": "sha256-YWGUknGRzP/fgO6YjvCJKPVQNZAPEd6ll+rHfQEIW+I=",
       "dotnet.timezones.blat": "sha256-t5xviiOQTfAsF0UDhmcyalKiaehUmf/sqJl97tmPM0M=",
@@ -202,10 +202,10 @@
       "mscorlib.dll": "sha256-YcsJInaT/kw3Vrm+SESegPxvT/Lr9RE6rE/KnxWIIc0=",
       "netstandard.dll": "sha256-TztlSRjADgiEABbiAMdWZpHrUVd8wnRtQRAvlwmRP/4=",
       "System.Private.CoreLib.dll": "sha256-BAhrZ8Zg3cJKQipxdzqQo+9jtPkOkRx1ou3oIhDohtk=",
-      "Pokedex.dll": "sha256-vDMlWNqCDsmifWWgHiHJ8Kh3HzC2wxKX7V/j7xw1SW0="
+      "Pokedex.dll": "sha256-L8IOwNq38JseOS4h2IMrjuSOVZOhy/9zS6DEiz+o4z4="
     },
     "pdb": {
-      "Pokedex.pdb": "sha256-zjzfuxRIsyTwbIRWJ+CMpsl4rjkQkdz3qliTQ8iPkcQ="
+      "Pokedex.pdb": "sha256-8s8qQVdqP9St6jhvetMGXjMaoFdOHbU///vOMaxMyFY="
     },
     "runtimeAssets": {
       "dotnet.wasm": {
