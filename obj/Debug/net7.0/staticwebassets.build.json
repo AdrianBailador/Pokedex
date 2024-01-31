@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "l5rAJjHNP/oVEXHFz3CekUZJuxTWI0qilHPNGz2FbFY=",
+  "Hash": "hRl32g4GQ9U9WPKVo3Qa5t0MlZPciFEQCIyHZ04obA4=",
   "Source": "Pokedex",
   "BasePath": "/",
   "Mode": "Root",
@@ -7710,6 +7710,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\app.css"
+    },
+    {
+      "Identity": "C:\\Users\\Adrián Bailador\\Desktop\\Pokedex\\Pokedex\\wwwroot\\img\\Pokemon.png",
+      "SourceId": "Pokedex",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Adrián Bailador\\Desktop\\Pokedex\\Pokedex\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "img/Pokemon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Pokemon.png"
     },
     {
       "Identity": "C:\\Users\\Adrián Bailador\\Desktop\\Pokedex\\Pokedex\\wwwroot\\index.html",

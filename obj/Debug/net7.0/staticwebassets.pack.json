@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
+      "Id": "C:\\Users\\Adrián Bailador\\Desktop\\Pokedex\\Pokedex\\wwwroot\\img\\Pokemon.png",
+      "PackagePath": "staticwebassets\\img\\Pokemon.png"
+    },
+    {
       "Id": "C:\\Users\\Adrián Bailador\\Desktop\\Pokedex\\Pokedex\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
