@@ -2,6 +2,34 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "BlazorComponentUtilities/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/BlazorComponentUtilities.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/BlazorComponentUtilities.dll": {}
+        }
+      },
+      "BlazorStrap/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "BlazorComponentUtilities": "1.7.1",
+          "Microsoft.AspNetCore.Components.Web": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0/BlazorStrap.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/BlazorStrap.dll": {}
+        },
+        "build": {
+          "buildTransitive/BlazorStrap.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/BlazorStrap.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/6.0.13": {
         "type": "package",
         "dependencies": {
@@ -520,6 +548,34 @@
       }
     },
     "net6.0/browser-wasm": {
+      "BlazorComponentUtilities/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/BlazorComponentUtilities.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/BlazorComponentUtilities.dll": {}
+        }
+      },
+      "BlazorStrap/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "BlazorComponentUtilities": "1.7.1",
+          "Microsoft.AspNetCore.Components.Web": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0/BlazorStrap.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/BlazorStrap.dll": {}
+        },
+        "build": {
+          "buildTransitive/BlazorStrap.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/BlazorStrap.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/6.0.13": {
         "type": "package",
         "dependencies": {
@@ -1033,6 +1089,41 @@
     }
   },
   "libraries": {
+    "BlazorComponentUtilities/1.7.1": {
+      "sha512": "m73xpJYtSd7tlOowMslyAvWDipW9bOTWJzGnCSQJK9tm4fz6xXQZbAbTDydmV9bxhTrzmJMMRGsAEnSVZjWVjg==",
+      "type": "package",
+      "path": "blazorcomponentutilities/1.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "blazor-glove-256.jpg",
+        "blazorcomponentutilities.1.7.1.nupkg.sha512",
+        "blazorcomponentutilities.nuspec",
+        "lib/netstandard2.0/BlazorComponentUtilities.dll"
+      ]
+    },
+    "BlazorStrap/5.0.0": {
+      "sha512": "fBbd0rkJ2edbJBwf+WrV7O2z1jdTGjjzSL/znfwxqvEGrw2TsKE6Lr31ZJ38ugIvu101AT9wmCX+xvzmpKzpvg==",
+      "type": "package",
+      "path": "blazorstrap/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "blazorstrap.5.0.0.nupkg.sha512",
+        "blazorstrap.nuspec",
+        "build/BlazorStrap.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/BlazorStrap.props",
+        "buildTransitive/BlazorStrap.props",
+        "lib/net5.0/BlazorStrap.dll",
+        "lib/net6.0/BlazorStrap.dll",
+        "staticwebassets/BlazorStrap.bundle.scp.css",
+        "staticwebassets/blazorstrap.js",
+        "staticwebassets/blazorstrap.min.js",
+        "staticwebassets/popper.min.js"
+      ]
+    },
     "Microsoft.AspNetCore.Authorization/6.0.13": {
       "sha512": "voJUi8+ccHoLb+N2+KPk0YgipRYoUlqo4AsJgz3cb0NfVq+LiGUHHzzXTOk3WdPflSYwR/VUGLBGACuuaLFsSQ==",
       "type": "package",
@@ -1910,6 +2001,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BlazorStrap >= 5.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.13",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.13",
       "Microsoft.NET.ILLink.Analyzers >= 7.0.100-1.23211.1",
@@ -1963,6 +2055,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "BlazorStrap": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
             "version": "[6.0.13, )"

@@ -5,13 +5,22 @@
 img[b-ana4ma6op8] {
     width: 200px;
 }
+
 .badge[b-ana4ma6op8] {
     text-transform: capitalize;
 }
+
 .container[b-ana4ma6op8] {
     margin: 30px auto;
     width: 28%;
 }
+
+@media screen and (max-width: 600px) {
+    .container[b-ana4ma6op8] {
+        width: 90%;
+    }
+}
+
 .inner-container[b-ana4ma6op8] {
     margin: 0 auto;
     width: 100%;
@@ -19,6 +28,7 @@ img[b-ana4ma6op8] {
     padding: 20px;
     padding-top: 0px;
 }
+
 .card-top[b-ana4ma6op8] {
     display: flex;
     flex-direction: column;
@@ -26,16 +36,24 @@ img[b-ana4ma6op8] {
     align-items: center;
     border-radius: 15px;
 }
+
 .card[b-ana4ma6op8] {
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px; /* Ajusta el ancho según tus preferencias */
+    margin: 0 auto; /* Centra la carta en el contenedor */
 }
+
 .pokemon-info[b-ana4ma6op8] {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 10px;
 }
+
 .type-badge[b-ana4ma6op8] {
     padding: 5px;
     padding-left: 10px;
@@ -46,26 +64,31 @@ img[b-ana4ma6op8] {
     text-transform: uppercase;
     margin-right: 3px;
 }
+
 .stat[b-ana4ma6op8] {
     text-transform: capitalize;
 }
+
 .stat-bar[b-ana4ma6op8] {
     display: flex;
     flex-direction: column;
     text-align: left;
     margin-bottom: 5px;
 }
+
 .stats-head[b-ana4ma6op8] {
     background-color: #F0F0F0;
     padding: 10px;
     border-radius: 15px;
     margin-top: 5px;
 }
+
 .poke-icon[b-ana4ma6op8] {
     width: 30px;
     height: 30px;
     margin-right: 10px;
 }
+
 .icon-container[b-ana4ma6op8] {
     display: flex;
     align-items: center;

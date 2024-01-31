@@ -1,7 +1,7 @@
 {
   "entryAssembly": "Pokedex",
   "resources": {
-    "hash": "sha256-Ijhjbhijmhgsz4KR7OWj0R5JDN/ZRxEEKWnDK6FACtU=",
+    "hash": "sha256-EQkDVqVpcn93TTweGK47twoFrFggkycZrK54ZxK9yZc=",
     "runtime": {
       "dotnet.6.0.25.bke23u9uqr.js": "sha256-1jUGCCSGH9JWhkqbHdQk8JBjBI8K/VC63En5zlypVps=",
       "dotnet.timezones.blat": "sha256-KsGUR9nqtXb3Hy6IrNlnc1HoSS+AFlsXTX9rq4oChtA=",
@@ -11,6 +11,8 @@
       "icudt_no_CJK.dat": "sha256-OxylFgLJlFqixsj+nLxYVsv5iZLvfIKMpLf9hrWaChA="
     },
     "assembly": {
+      "BlazorComponentUtilities.dll": "sha256-UapksNiQg3lu5QM9uVSLyjEuzRH/7o22fmcmxcLAAeI=",
+      "BlazorStrap.dll": "sha256-DjVO7Howr0okHjsexURWFnaI/bAM9HdjikQmXMbLh/w=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-mU8wXrw1NaAfoswi7J10exqtK90y6UBTDA8jt1T84BQ=",
       "Microsoft.AspNetCore.Components.dll": "sha256-VEJzgKvwGbPm2I+rYbqDt/Ret+PXbgWB8pBkqxAHjz4=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-0WJxmwuCKgsNP0fiuA+6gNNYVwhPz4yS+4AfhQS+nms=",
@@ -200,10 +202,10 @@
       "mscorlib.dll": "sha256-veli+XvWHzkA3s4t4DKI+XiyNMpfHQjiO002+ExANkU=",
       "netstandard.dll": "sha256-O9JhHo5KqxkmwmapuxuhG/iMRV7RHcrCDO9z+yv+8yI=",
       "System.Private.CoreLib.dll": "sha256-6rKu8tPdUGsvbSpesoNMVzbx7bNqPRMPV34eI7vSYaQ=",
-      "Pokedex.dll": "sha256-pKCItzfrQN1UpV3j5irk1XAtu7j4XkN4x7rQzHqHOGw="
+      "Pokedex.dll": "sha256-2BTw6NmHiUyzIzb/vTe0/E/6acsWeSjOzAssIelVXUs="
     },
     "pdb": {
-      "Pokedex.pdb": "sha256-yLp+XzJiBwLF+XlMZZrehn6uxy7LYXnuRgywCKisyuw="
+      "Pokedex.pdb": "sha256-prLj/mhJy2H0kqE+x1bDfGNRy5o+6SnD/ApsnFJ8hUc="
     },
     "runtimeAssets": {
       "dotnet.wasm": {

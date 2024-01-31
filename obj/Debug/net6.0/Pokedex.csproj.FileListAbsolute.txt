@@ -1,5 +1,7 @@
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js
+C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\wwwroot\_framework\BlazorComponentUtilities.dll
+C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\wwwroot\_framework\BlazorStrap.dll
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.25.bke23u9uqr.js
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\wwwroot\_framework\dotnet.timezones.blat
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\wwwroot\_framework\dotnet.wasm
@@ -286,6 +288,7 @@ C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\wwwroot\_fram
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.TypeExtensions.dll.gz
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\wwwroot\_framework\System.Net.Http.Json.dll.gz
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\wwwroot\_framework\System.Numerics.dll.gz
+C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\wwwroot\_framework\BlazorComponentUtilities.dll.gz
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\wwwroot\_framework\System.Private.CoreLib.dll.gz
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll.gz
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\wwwroot\_framework\System.Data.DataSetExtensions.dll.gz
@@ -311,6 +314,7 @@ C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\wwwroot\_fram
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\wwwroot\_framework\Pokedex.pdb.gz
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebClient.dll.gz
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\wwwroot\_framework\System.Drawing.dll.gz
+C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\wwwroot\_framework\BlazorStrap.dll.gz
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XPath.dll.gz
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\wwwroot\_framework\System.Private.DataContractSerialization.dll.gz
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\wwwroot\_framework\System.Text.RegularExpressions.dll.gz
@@ -402,6 +406,8 @@ C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\package.json
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\Pokedex.staticwebassets.runtime.json
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\Pokedex.dll
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\Pokedex.pdb
+C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\BlazorComponentUtilities.dll
+C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\BlazorStrap.dll
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
@@ -618,6 +624,8 @@ C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net6.0\scopedcss\Pag
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net6.0\scopedcss\bundle\Pokedex.styles.css
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net6.0\scopedcss\projectbundle\Pokedex.bundle.scp.css
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net6.0\compressed\x0014xb9e2.gz
+C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net6.0\compressed\cvq6jwxxuw.gz
+C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net6.0\compressed\irsw0v9azm.gz
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net6.0\compressed\kg8rxuex01.gz
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net6.0\compressed\ohhcauguha.gz
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net6.0\compressed\fmpbbvmgs3.gz

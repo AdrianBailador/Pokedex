@@ -43,16 +43,32 @@
   List<Pokemon> pokemonList = new List<Pokemon>();
   List<Pokemon> displayedPokemonList = new List<Pokemon>();
   string filterIdOrName = "";
-  int batchSize = 15;
+  int batchSize = 10;
 
   protected override async Task OnInitializedAsync()
   {
-      for (int i = 1; i <= 152; i++) {
+      // Load only the first 12 Pokémon
+      for (int i = 1; i <= 10; i++) {
           pokemonList.Add(await client.GetPokemon(i.ToString()));
       }
 
       // Initialize displayed list with the first batch of Pokémon
-      displayedPokemonList = pokemonList.Take(batchSize).ToList();
+      displayedPokemonList = pokemonList.ToList();
+
+      // Load the rest of the Pokémon in the background
+      _ = LoadMorePokemonAsync();
+  }
+
+  // Method to load the rest of the Pokémon asynchronously
+  private async Task LoadMorePokemonAsync()
+  {
+      // Start from the 13th Pokémon and end at the 152nd
+      for (int i = 11; i <= 1024; i++) {
+          // Get the Pokémon from the client
+          var pokemon = await client.GetPokemon(i.ToString());
+          // Add it to the list
+          pokemonList.Add(pokemon);
+      }
   }
 
   // Filter by ID or Name

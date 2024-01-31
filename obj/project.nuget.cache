@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "M1W6oqDiP2+gZ76huzoYiITVlsxi94MMn7QAfm3W9QpWWviDpqJ7Jxn6YbLUW/tSJ2vmWq5IYfTYfLhPHZlchw==",
+  "dgSpecHash": "Wdke8Qxr7dwnaMwvGuHIgBWBJ3Fy6JoFat+GXY/WcUAh8PeFDJ1vN2x2JH6xWe1OJjLALK8Tmxku0AhxLGDX+A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Adrián Bailador\\Desktop\\Pokedex\\Pokedex\\Pokedex.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Adrián Bailador\\.nuget\\packages\\blazorcomponentutilities\\1.7.1\\blazorcomponentutilities.1.7.1.nupkg.sha512",
+    "C:\\Users\\Adrián Bailador\\.nuget\\packages\\blazorstrap\\5.0.0\\blazorstrap.5.0.0.nupkg.sha512",
     "C:\\Users\\Adrián Bailador\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.13\\microsoft.aspnetcore.authorization.6.0.13.nupkg.sha512",
     "C:\\Users\\Adrián Bailador\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.13\\microsoft.aspnetcore.components.6.0.13.nupkg.sha512",
     "C:\\Users\\Adrián Bailador\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.13\\microsoft.aspnetcore.components.analyzers.6.0.13.nupkg.sha512",
