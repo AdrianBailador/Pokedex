@@ -1,3 +1,16 @@
 ﻿@page "/"
+@using Util
+@using Models
+@inject PokedexClient client
 
-<h1>Hello, world!</h1>
+
+<h1>@pokemon.name</h1>
+
+@code {
+    Pokemon pokemon = new Pokemon();
+
+    protected override async Task OnInitializedAsync()
+    {
+        pokemon = await client.GetPokemon("1");
+    }
+}

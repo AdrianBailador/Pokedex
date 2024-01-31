@@ -1,7 +1,7 @@
   namespace Pokedex.Models
  {
  
-    public class Root
+    public class Pokemon
     {   
       
         public int id { get; set; }   
