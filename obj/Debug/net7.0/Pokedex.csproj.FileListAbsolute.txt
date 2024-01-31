@@ -400,6 +400,7 @@ C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net7.0\wwwroot\_fram
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net7.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll.gz
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net7.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll.gz
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Loader.dll.gz
+C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net7.0\libman.json
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net7.0\package-lock.json
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net7.0\package.json
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net7.0\Pokedex.staticwebassets.runtime.json
@@ -618,7 +619,9 @@ C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\staticwebasse
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Pokedex.props
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Pokedex.props
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\scopedcss\Pages\Index.razor.rz.scp.css
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\scopedcss\bundle\Pokedex.styles.css
+C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\scopedcss\projectbundle\Pokedex.bundle.scp.css
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\compressed\yac2d4mvd0.gz
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\compressed\s9t99brhcr.gz
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\compressed\k8qwczut63.gz
