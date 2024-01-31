@@ -1,10 +1,3 @@
-C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\Pokedex.csproj.AssemblyReference.cache
-C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\Pokedex.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\Pokedex.AssemblyInfoInputs.cache
-C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\Pokedex.AssemblyInfo.cs
-C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\Pokedex.csproj.CoreCompileInputs.cache
-C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\Pokedex.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\Pokedex.sourcelink.json
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net7.0\wwwroot\_framework\blazor.boot.json
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.14.7swktjs287.js
@@ -610,6 +603,13 @@ C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net7.0\dotnet.wasm
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net7.0\icudt_CJK.dat
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net7.0\icudt_EFIGS.dat
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\bin\Debug\net7.0\icudt_no_CJK.dat
+C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\Pokedex.csproj.AssemblyReference.cache
+C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\Pokedex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\Pokedex.AssemblyInfoInputs.cache
+C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\Pokedex.AssemblyInfo.cs
+C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\Pokedex.csproj.CoreCompileInputs.cache
+C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\Pokedex.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\Pokedex.sourcelink.json
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\blazor.build.boot-extension.json
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\blazor.boot.json
 C:\Users\Adrián Bailador\Desktop\Pokedex\Pokedex\obj\Debug\net7.0\staticwebassets.build.json

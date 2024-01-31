@@ -5,34 +5,84 @@
 
 <div class="container">
   <img src="/img/Pokemon.png" class="app-title">
-    <div class="pokemon-row">
-        @foreach(var pokemon in pokemonList)
-        {
-            <a href="/pokemon/@pokemon.id">
-            <div class="pokemon-card">
-                <img src="@pokemon.sprites.front_default" alt="Pokemon Sprite">
-                    <h4 class="pokemon-name">@pokemon.name</h4>
-                    <div class="type-row">
-                        @foreach(var type in pokemon.types)
-                        {
-                           <span class="type-badge" style="background-color: @PokemonColor.GetTypeColor(@type.type.name);">@type.type.name</span> 
-                        }
-                    </div>
-            </div>
-            </a>
-        }
+
+  <!-- Filter by ID or Name -->
+  <div class="filter-section">
+    <label for="filterByIdOrName">Filter by Number or Name</label>
+    <div class="filter-input">
+      <input type="text" id="filterByIdOrName" @bind="filterIdOrName" />
+      <button class="filter-button" @onclick="FilterByIdOrName">Filter</button>
     </div>
+  </div>
+
+  <div class="pokemon-row">
+    @foreach(var pokemon in displayedPokemonList)
+    {
+        <a href="/pokemon/@pokemon.id">
+        <div class="pokemon-card">
+            <img src="@pokemon.sprites.front_default" alt="Pokemon Sprite">
+            <h4 class="pokemon-name">@pokemon.name</h4>
+            <div class="type-row">
+                @foreach(var type in pokemon.types)
+                {
+                    <span class="type-badge" style="background-color: @PokemonColor.GetTypeColor(@type.type.name);">@type.type.name</span> 
+                }
+            </div>
+        </div>
+        </a>
+    }
+  </div>
+
+  @if (displayedPokemonList.Count < pokemonList.Count)
+  {
+      <button class="show-more-button" @onclick="ShowMore">Show More</button>
+  }
 </div>
-
-
 
 @code {
   List<Pokemon> pokemonList = new List<Pokemon>();
- protected override async Task OnInitializedAsync()
-     {
-         for (int i = 1; i < 152; i ++) {
-             pokemonList.Add(await client.GetPokemon(i.ToString()));
-             StateHasChanged();
-         }
-     }
+  List<Pokemon> displayedPokemonList = new List<Pokemon>();
+  string filterIdOrName = "";
+  int batchSize = 15;
+
+  protected override async Task OnInitializedAsync()
+  {
+      for (int i = 1; i <= 152; i++) {
+          pokemonList.Add(await client.GetPokemon(i.ToString()));
+      }
+
+      // Initialize displayed list with the first batch of Pokémon
+      displayedPokemonList = pokemonList.Take(batchSize).ToList();
+  }
+
+  // Filter by ID or Name
+  private void FilterByIdOrName()
+  {
+      if (string.IsNullOrEmpty(filterIdOrName))
+      {
+          // If filter is empty, show all Pokémon
+          displayedPokemonList = pokemonList.Take(batchSize).ToList();
+      }
+      else
+      {
+          // Filter Pokémon by exact ID or Name
+          displayedPokemonList = pokemonList
+              .Where(p => p.id.ToString().Equals(filterIdOrName, StringComparison.OrdinalIgnoreCase) ||
+                          p.name.Contains(filterIdOrName, StringComparison.OrdinalIgnoreCase))
+              .Take(batchSize)
+              .ToList();
+      }
+  }
+
+  // Show more Pokémon
+  private void ShowMore()
+  {
+      int currentCount = displayedPokemonList.Count;
+      int remainingCount = pokemonList.Count - currentCount;
+      int nextBatchSize = Math.Min(batchSize, remainingCount);
+
+      displayedPokemonList.AddRange(pokemonList.Skip(currentCount).Take(nextBatchSize));
+
+      StateHasChanged();
+  }
 }

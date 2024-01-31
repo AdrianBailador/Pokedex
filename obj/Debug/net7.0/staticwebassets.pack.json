@@ -21,6 +21,26 @@
       "PackagePath": "staticwebassets\\img\\Pokemon.png"
     },
     {
+      "Id": "C:\\Users\\Adrián Bailador\\Desktop\\Pokedex\\Pokedex\\wwwroot\\img\\icons8-mega-ball-96.png",
+      "PackagePath": "staticwebassets\\img\\icons8-mega-ball-96.png"
+    },
+    {
+      "Id": "C:\\Users\\Adrián Bailador\\Desktop\\Pokedex\\Pokedex\\wwwroot\\img\\icons8-pokeball-96.png",
+      "PackagePath": "staticwebassets\\img\\icons8-pokeball-96.png"
+    },
+    {
+      "Id": "C:\\Users\\Adrián Bailador\\Desktop\\Pokedex\\Pokedex\\wwwroot\\img\\icons8-superball-96.png",
+      "PackagePath": "staticwebassets\\img\\icons8-superball-96.png"
+    },
+    {
+      "Id": "C:\\Users\\Adrián Bailador\\Desktop\\Pokedex\\Pokedex\\wwwroot\\img\\icons8-ultra-ball-96.png",
+      "PackagePath": "staticwebassets\\img\\icons8-ultra-ball-96.png"
+    },
+    {
+      "Id": "C:\\Users\\Adrián Bailador\\Desktop\\Pokedex\\Pokedex\\wwwroot\\img\\insignia.png",
+      "PackagePath": "staticwebassets\\img\\insignia.png"
+    },
+    {
       "Id": "C:\\Users\\Adrián Bailador\\Desktop\\Pokedex\\Pokedex\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
