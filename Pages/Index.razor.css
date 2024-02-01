@@ -92,3 +92,30 @@ button:hover, .filter-button:hover, .show-more-button:hover {
 .show-more-button {
   margin-top: 20px;
 }
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-bottom: 20px; 
+  background-color: #f2f2f2;
+}
+
+label {
+  margin-right: 10px;
+  font-size: 21px; 
+  max-width: 100%; 
+  overflow: hidden; 
+  white-space: nowrap; 
+  text-overflow: ellipsis; 
+}
+
+.filter-button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px; 
+}

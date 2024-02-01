@@ -95,6 +95,33 @@ button:hover[b-bpurtov1tr], .filter-button:hover[b-bpurtov1tr], .show-more-butto
 .show-more-button[b-bpurtov1tr] {
   margin-top: 20px;
 }
+
+.content-container[b-bpurtov1tr] {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-bottom: 20px; 
+  background-color: #f2f2f2;
+}
+
+label[b-bpurtov1tr] {
+  margin-right: 10px;
+  font-size: 21px; 
+  max-width: 100%; 
+  overflow: hidden; 
+  white-space: nowrap; 
+  text-overflow: ellipsis; 
+}
+
+.filter-button[b-bpurtov1tr] {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px; 
+}
 /* /Pages/PokemonCard.razor.rz.scp.css */
 .pokemon-name[b-ana4ma6op8] {
     text-transform: capitalize;
